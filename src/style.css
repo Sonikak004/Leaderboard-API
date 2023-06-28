@@ -1,0 +1,54 @@
+.heading {
+  margin: 25px 0 25px 25px;
+}
+
+ul {
+  list-style-type: none;
+  width: 350px;
+  padding: 0;
+}
+
+.name-ul {
+  border: 1px solid black;
+  width: 240px;
+}
+
+li {
+  padding: 8px;
+}
+
+li:nth-child(odd) {
+  background-color: rgb(225 225 225);
+}
+
+li:nth-child(even) {
+  background-color: rgb(184 187 188);
+}
+
+.second-head {
+  display: flex;
+  width: 350px;
+}
+
+.second-head > li {
+  background: none;
+  text-align: center;
+  font-size: 27px;
+  display: flex;
+}
+
+h2 {
+  font-size: 27px;
+  font-weight: 500;
+}
+
+.scores {
+  display: flex;
+  justify-content: center;
+  width: 577px;
+  margin-top: 36px;
+}
+
+.add-sc {
+  margin-top: 7px;
+}
