@@ -1,6 +1,5 @@
 .heading {
   margin: 25px 0 25px 25px;
-
 }
 
 ul {
@@ -14,16 +13,16 @@ ul {
   width: 240px;
 }
 
+li {
+  padding: 8px;
+}
+
 li:nth-child(odd) {
   background-color: rgb(225 225 225);
 }
 
 li:nth-child(even) {
   background-color: rgb(184 187 188);
-}
-
-li {
-  padding: 8px;
 }
 
 .second-head {
