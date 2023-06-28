@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <h2><b>Leaderboard</b></h2>
+  <h2><b>LEADERBOARD</b></h2>
 
 </div>
 
@@ -21,9 +21,9 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 To Do List <a name="about-project"></a>
+# 📖 Leaderboard <a name="about-project"></a>
 
-**To Do List** is a List of To Do tasks built using webpack and served by a webpack dev server.
+The **leaderboard** website displays scores submitted by different players, it also allows you to submit your score.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -41,9 +41,9 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **User Interface**
-- **Task Management**
-- **Interactivity**
+- **Real-time Updates**
+- **User Ranking**
+- **Score Tracking**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -57,15 +57,17 @@ Clone this repository to your desired folder:
 
 cd my-folder
 <br/>
-git clone https://github.com/Sonikak004/To-Do-list.git
+git clone https://github.com/Sonikak004/Leaderboard-API.git
 
 ### Usage
 
 To run the project, execute the following command:
 
 cd path/to/project
+<br/> 
+**npm init -y**
 <br/>
-npm start
+**npm start**
 
 ## 👥 Author <a name="authors"></a>
 
@@ -79,9 +81,9 @@ npm start
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Drag and Drop**
-- [ ] **Local Storage**
-- [ ] **Accessibility**
+- [ ] **Acheivements and Badges**
+- [ ] **Challenges**
+- [ ] **Social Interaction**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -89,7 +91,7 @@ npm start
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Sonikak004/To-Do-list/issues).
+Feel free to check the [issues page](https://github.com/Sonikak004/Leaderboard-API/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
