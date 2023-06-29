@@ -27,7 +27,8 @@ ul {
   font-family: 'Open Sans', sans-serif;
 }
 
-button, .submit {
+button, 
+.submit {
   border-color: #46be30;
   border-style: solid;
   border-radius: 7px;
@@ -35,7 +36,7 @@ button, .submit {
   color: white;
 }
 
-button:hover, 
+button:hover,
 .submit:hover {
   background-color: #fff;
   color: #46be30;
