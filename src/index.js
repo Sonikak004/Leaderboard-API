@@ -1,4 +1,5 @@
 import './style.css';
+/* eslint-disable import/no-cycle */
 import { refreshScore } from './modules/refreshScore.js';
 import { submitScore } from './modules/submitScore.js';
 

@@ -1,12 +1,13 @@
+/* eslint-disable import/no-cycle */
 import { URL, gameId } from '../index.js';
 
 const sInput = document.querySelector('#sInput');
 const nInput = document.querySelector('#nInput');
 
-export const submitScore = async (e) => {
+const submitScore = async (e) => {
   e.preventDefault();
   const user = nInput.value;
-  const score = parseInt(sInput.value);
+  const score = parseInt(sInput.value, 10);
 
   const response = await fetch(`${URL}/games/${gameId}/scores/`, {
     method: 'POST',
@@ -20,4 +21,6 @@ export const submitScore = async (e) => {
     nInput.value = '';
     sInput.value = '';
   }
-}
+};
+
+export { submitScore };
