@@ -16,4 +16,5 @@ const refreshScore = async () => {
   });
 };
 
+/* eslint-disable import/prefer-default-export */
 export { refreshScore };

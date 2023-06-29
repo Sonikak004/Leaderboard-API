@@ -23,4 +23,5 @@ const submitScore = async (e) => {
   }
 };
 
+/* eslint-disable import/prefer-default-export */
 export { submitScore };
