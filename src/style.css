@@ -50,5 +50,9 @@ h2 {
 }
 
 .add-sc {
-  margin-top: 7px;
+  margin-top: 45px;
+}
+
+.wrapper {
+  display: flex;
 }
