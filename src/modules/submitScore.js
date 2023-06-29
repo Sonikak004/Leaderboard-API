@@ -1,10 +1,9 @@
-import { URL } from "../index.js";
-import { gameId } from "../index.js";
+import { URL, gameId } from '../index.js';
 
 const sInput = document.querySelector('#sInput');
 const nInput = document.querySelector('#nInput');
 
-export async function submitScore(e) {
+export const submitScore = async (e) => {
   e.preventDefault();
   const user = nInput.value;
   const score = parseInt(sInput.value);

@@ -1,9 +1,8 @@
-import { URL } from "../index.js";
-import { gameId } from "../index.js";
+import { URL, gameId } from '../index.js';
 
 const scoresList = document.querySelector('#scoresList');
 
-export async function refreshScore() {
+export const refreshScore = async () => {
   const response = await fetch(`${URL}/games/${gameId}/scores/`);
   const data = await response.json();
 
