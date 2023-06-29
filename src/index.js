@@ -1,6 +1,6 @@
 import './style.css';
 
-import { baseURL, gameId} from './modules/API.js'
+import { baseURL, gameId } from './modules/API.js';
 
 const scoresList = document.querySelector('#scoresList');
 
